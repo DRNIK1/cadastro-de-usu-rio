@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    color: rgb(186, 211, 233);
+    background-color: rgb(57, 57, 59);
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+h2{
+    position: absolute;
+    top: 0;
+    margin: 30px;
+    border-bottom: 2px solid;
+}
+
+main{
+    background-color: rgba(3, 16, 92, 0.5);
+    box-shadow: 0 8px 10px rgba(3, 16, 92, 0.5);
+    border-radius: 5px;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+form{
+    background-color: rgb(6, 57, 102);
+    box-shadow: 0 8px 10px rgba(3, 16, 92, 0.5);
+    position: absolute;
+    top: 0;
+    margin: 20px;
+    display: flex;
+    border-radius: 5px;
+    height: 310px;
+    width: 450px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(95, 94, 97);
+    border-radius: 5px;
+    height: 20px;
+    width: 320px;
+}
+
+input:hover{
+    background-color: rgb(18, 110, 190);
+}
+
+textarea{
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(95, 94, 97);
+    border-radius: 5px;
+}
+
+textarea:hover{
+    background-color: rgb(18, 110, 190);
+}
+
+#cadastrar{
+    background-color: rgb(8, 163, 163);
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+#cadastrar:hover{
+    background-color: rgb(44, 211, 211);
+    box-shadow: 0 4px 6px rgba(15, 15, 15, 0.5);
+}
+
+ul{
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    bottom: 0;
+    margin-bottom: 30px;
+    width: 180vh;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.usuario{
+    background-color: rgb(3, 52, 94);
+    border: 1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    position: relative;
+    width: 400px;
+    height: 220px;
+}
+
+.usuario:hover{
+    background-color: rgb(33, 38, 43);
+    box-shadow: 0 4px 8px rgba(233, 162, 162, 0.5);
+}
+
+.nomeUsuario{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin-top: 20px;
+}
+
+.emailUsuario{
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+
+.descricao{
+    position: absolute;
+    top: 110px;
+    left: 50px;
+}
+
+.editar{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgba(4, 163, 4, 0.5);
+}
+
+.editar:hover{
+    padding: 5px;
+    background-color: rgb(10, 78, 4);
+}
+
+.deletar{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    margin: 10px;
+    border: none;
+    background-color: rgba(173, 6, 6, 0.5);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.deletar:hover{
+    padding: 5px;
+    background-color: rgb(107, 7, 7);
+}
+
+.salvarEdicao{
+    margin: 8px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    background-color: rgba(4, 163, 4, 0.5);
+}
+
+.salvarEdicao:hover{
+    padding: 5px;
+    background-color: rgb(10, 78, 4);
+}
+
+.inputEditaNome{
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(95, 94, 97);
+    border-radius: 5px;
+    height: 25px;
+    margin: 5px;
+    margin-top: 5px;
+}
+
+.inputEditaEmail{
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(95, 94, 97);
+    border-radius: 5px;
+    height: 25px;
+    margin: 5px;
+}
+
+.inputEditaDescricao{
+    background-color: transparent;
+    border: none;
+    border: 1px solid rgb(95, 94, 97);
+    border-radius: 5px;
+    margin: 5px;
+}
