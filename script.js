@@ -1,5 +1,5 @@
 const listaDeUsuarios = document.getElementById('listaDeUsuarios');
-const URLBaseCrud = 'https://crudcrud.com/api/ca7e404d81364444ab42866882b79099/usuarios';
+const URLBaseCrud = 'https://crudcrud.com/api/5223af35d6b34caba8f43661fe3c0867/usuarios';
 
 class CriacaoBotoesEElementos {
 
